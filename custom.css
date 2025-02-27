@@ -1,0 +1,36 @@
+ body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-image: url(images_account/22.jpg);
+        background-size: cover; /* ทำให้ภาพเต็มพื้นที่ */
+        background-position: center; /* จัดตำแหน่งภาพให้อยู่กลาง */
+        background-repeat: no-repeat; /* ห้ามทำซ้ำภาพ */
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.form-signup {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    background-color: #fff;
+}
+
+footer {
+    background-color: #ffffff;
+}
+.highlight1{
+    color: #ffffff;
+}
